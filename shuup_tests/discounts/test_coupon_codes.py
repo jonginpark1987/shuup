@@ -15,7 +15,7 @@ from shuup.discounts.modules import CouponCodeModule
 from shuup.testing import factories
 from shuup.testing.utils import apply_request_middleware
 from shuup.core.pricing import get_price_info
-
+ 
 
 def _init_test_for_product_without_basket(rf, default_price):
     shop = factories.get_default_shop()
